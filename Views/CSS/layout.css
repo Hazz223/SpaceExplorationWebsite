@@ -1,0 +1,29 @@
+#navbar-position{
+    position: fixed;
+}
+
+.logo-container{
+    width: 200px;
+    height: 200px;
+}
+.logo-container img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.page-header-logo{
+    width: 200px;
+}
+
+.push{
+    margin-top:30px;
+}
+
+.image-banner{
+}
+
+
+img{
+    max-height: 100%;
+    max-width: 100%;
+}

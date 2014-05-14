@@ -1,0 +1,11 @@
+#Need to put in error stuff
+ErrorDocument 404 /pinboard/Views/Static/Error404.php
+ErrorDocument 403 /pinboard/Views/Static/Error403.php
+#Forces https- will need to be modified for deployment.
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+
+# If empty, i need to redirect to the redirect page. forces pages to have users at the end
+RewriteRule ^index$ /SpaceExploration/Routing/Routing\.php?controller=Home&action=Index [NC,L]
+RewriteRule ^$ /SpaceExploration/Routing/Routing\.php?controller=Home&action=Index [NC,L]
+
